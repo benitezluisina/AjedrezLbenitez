@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="AjedrezLbenitez.Tablero">
+    <Position X="1.25" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAEAAAAAAAAAAAAAAAAAAAAAAAAQAAAIAAAAA=</HashCode>
+      <FileName>Tablero.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AjedrezLbenitez.Partida">
+    <Position X="5" Y="0.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <AssociationLine Name="Tablero" Type="AjedrezLbenitez.Tablero">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.11" Y="0.06" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAIKAAACAACAAAAEgAAAAECBAAAAwQAAAAABAEAAAw=</HashCode>
+      <FileName>Partida.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Tablero" />
+      <Property Name="Jugador" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="AjedrezLbenitez.Celda">
+    <Position X="7" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAEAAAAGAAAABgAAAIAA=</HashCode>
+      <FileName>Celda.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Pieza" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="AjedrezLbenitez.Pieza">
+    <Position X="9" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAACAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAgAAAAAA=</HashCode>
+      <FileName>Pieza.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AjedrezLbenitez.Peon">
+    <Position X="12.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAAAAAAAAAAAQAAAAAAAAAAAAA=</HashCode>
+      <FileName>Peon.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AjedrezLbenitez.Jugador">
+    <Position X="7.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIAAAAEAAAAgAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Jugador.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="AjedrezLbenitez.EnumJugadorColor">
+    <Position X="16.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAACAAAAA=</HashCode>
+      <FileName>Enumeraciones.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="AjedrezLbenitez.EnumEstadoJuego">
+    <Position X="14.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQIAAAAAAAAAAAAAAAAABACAAAAAAQA=</HashCode>
+      <FileName>Enumeraciones.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="AjedrezLbenitez.EnumMovimientoX">
+    <Position X="14.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAAgAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Enumeraciones.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

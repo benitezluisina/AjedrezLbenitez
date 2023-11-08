@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="AjedrezLbenitez.Partida">
+    <Position X="1.25" Y="0.75" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="AjedrezLbenitez.Partida.ColorJugador" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Partida.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Enum Name="AjedrezLbenitez.Partida.EstadoJuego" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Partida.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Partida.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AjedrezLbenitez.Tablero">
+    <Position X="3.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Tablero.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AjedrezLbenitez.Pieza">
+    <Position X="5.25" Y="0.75" Width="1.5" />
+    <NestedTypes>
+      <Class Name="AjedrezLbenitez.Pieza.PiezaAjedrez" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Pieza.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Pieza.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AjedrezLbenitez.Celda">
+    <Position X="3" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAgBAAAAhAAAAAAA=</HashCode>
+      <FileName>Celda.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
